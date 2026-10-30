@@ -1,4 +1,14 @@
-.header .title {
+.header {
+  border-bottom: 1px solid;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -9,15 +19,23 @@
   text-decoration: none;
 }
 
-.header .post-title {
+.header-post-title {
   color: #4d5ae5;
 }
 
-.nav-menu ul {
-  list-style: none;
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
 
-.nav-menu a {
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation {
+  display: block;
+  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -27,16 +45,23 @@
   text-decoration: none;
 }
 
-.nav-menu a:hover,
-.nav-menu a:focus {
+.navigation:hover,
+.navigation:focus {
   color: #404bbf;
 }
 
-.address ul {
-  list-style: none;
+.address {
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address a {
+  display: block;
+  padding: 24px 0;
   font-style: normal;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -51,4 +76,3 @@
 .address a:focus {
   color: #404bbf;
 }
-

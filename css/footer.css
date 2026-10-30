@@ -1,8 +1,11 @@
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer .title {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -19,5 +22,5 @@
 
 .footer-text {
   color: #f4f4fd;
+  max-width: 264px;
 }
-
